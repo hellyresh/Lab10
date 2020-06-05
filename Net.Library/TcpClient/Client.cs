@@ -11,7 +11,7 @@ namespace SomeProject.Library.Client
     /// </summary>
     public enum DataType
     {
-        Message, File
+        Message, File 
     }
 
     /// <summary>

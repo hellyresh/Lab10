@@ -208,7 +208,7 @@ namespace SomeProject.Library.Server
         {
             string extension = getExtensionOfFile(stream);
 
-            string directoryName = DateTime.Now.ToString(dateMask);
+            string directoryName = DateTime.Now.ToString(dateMask); 
             byte[] data = new byte[1];
 
             try
