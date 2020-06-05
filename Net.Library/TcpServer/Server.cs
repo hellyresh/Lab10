@@ -52,7 +52,7 @@ namespace SomeProject.Library.Server
         /// </summary>
         public Server()
         {
-            serverListener = new TcpListener(IPAddress.Loopback, 8080);
+            serverListener = new TcpListener(IPAddress.Loopback, 8081);
         }
 
         /// <summary>
